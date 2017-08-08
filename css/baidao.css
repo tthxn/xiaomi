@@ -1,0 +1,165 @@
+/*中间白色导航中下拉框*/
+/*#hide{
+	height:0px;
+	width:100%;
+	background: white;
+	position: absolute;
+	left: 0;
+	top: 260px;
+	z-index: 3;
+	border-top: 1px solid #E6E6E6;
+	
+}*/
+#hide .menu{
+	/*若要做动画效果,将height设置成0,记得加上overflow: hidden;这样里面的内容就会隐藏掉了*/
+	/*或者height设置成0,那么里面的内容如果不显示,对应内容加上display:none*/
+	height:230px;
+	width:100%;
+	background: white;
+	position: absolute;
+	left: 0;
+	top: 260px;
+	z-index: 3;
+	border-top: 1px solid #E6E6E6;
+	display: none;
+	overflow: hidden;
+	
+}
+/*#hide .hongmi{
+	height:0px;
+	width:100%;
+	background: white;
+	position: absolute;
+	left: 0;
+	top: 260px;
+	z-index: 3;
+	border-top: 1px solid #E6E6E6;
+	
+}
+#hide .pingban{
+	height:0px;
+	width:100%;
+	background: white;
+	position: absolute;
+	left: 0;
+	top: 260px;
+	z-index: 3;
+	border-top: 1px solid #E6E6E6;
+	
+}
+#hide .dianshi{
+	height:0px;
+	width:100%;
+	background: white;
+	position: absolute;
+	left: 0;
+	top: 260px;
+	z-index: 3;
+	border-top: 1px solid #E6E6E6;
+	
+}
+#hide .hezi{
+	height:0px;
+	width:100%;
+	background: white;
+	position: absolute;
+	left: 0;
+	top: 260px;
+	z-index: 3;
+	border-top: 1px solid #E6E6E6;
+	
+}
+#hide .luyouqi{
+	height:0px;
+	width:100%;
+	background: white;
+	position: absolute;
+	left: 0;
+	top: 260px;
+	z-index: 3;
+	border-top: 1px solid #E6E6E6;
+
+}
+#hide .yingjian{
+	height:0px;
+	width:100%;
+	background: white;
+	position: absolute;
+	left: 0;
+	top: 260px;
+	z-index: 3;
+	border-top: 1px solid #E6E6E6;
+
+}*/
+#hide ul{
+	list-style: none;
+	width: 1226px;
+	height:230px;
+	margin: 0 auto;
+	/*display: none;*/
+}
+#hide ul li{
+	width: 204px;
+	height: 230px;
+	float: left;
+	position: relative;
+}
+#hide ul li>p{
+	width: 204px;
+	height: 22px;
+	color:#ff6700;
+	margin: 0 auto;
+	
+}
+#hide ul li>p span{
+	display: block;
+	width:66px;
+	height: 22px;
+	line-height: 22px;
+	font-size: 12px;
+	color:#ff6700;
+	text-align: center;
+	border: 1px solid #FF6700;
+	margin: 0 auto;
+}
+#hide ul li>a.tu{
+	display: block;
+	width:204px;
+	height: 110px;
+	text-align: center;
+	margin-top:15px;
+}
+#hide ul li>a.tu img{
+	width:160px;
+	height: 110px;
+}
+#hide ul li>a.zi{
+	display: block;
+	margin-top:14px;
+	text-align: center;
+	color: #333;
+	text-decoration: none;
+	width:204px;
+	height: 20px;
+	font-size: 12px;
+	line-height: 20px;
+}
+#hide ul li>span{
+	display: block;
+	text-align: center;
+	color: #FF6700;
+	width:204px;
+	height: 20px;
+	font-size: 12px;
+	line-height: 20px;
+}
+#hide ul li>span.shu{
+	display: block;
+	width: 1px;
+	height: 100px;
+	background:#E0E0E0 ;
+	position: absolute;
+	right: 0;
+	top: 35px;
+}
+/*//////////////////////////////////////////

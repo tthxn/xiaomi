@@ -1,0 +1,213 @@
+*{
+	padding:0;
+	margin:0;
+}
+.bottom_nav .up{
+	width:1226px;
+	margin:0 auto;
+	background-color: #fff;
+	overflow:hidden;
+
+}
+
+/*预约服务*/
+.bottom_nav .up .one{
+	width:1226px;
+	height:80px;
+	border-bottom:1px solid #e0e0e0;
+
+}
+.bottom_nav .up .one .in a{
+	width:242.733px;
+	height:25px;
+	float:left;
+	text-align: center;
+	margin-top:27px;
+	color: #616161;	
+	text-decoration: none;
+	font-size:16px;
+}
+
+.bottom_nav .up .one .in a.right_box{
+	border-right:1px solid #e0e0e0;	
+}
+
+.bottom_nav .up .one .in a:hover{
+	color: #ff6700;
+}
+
+/*预约服务结束*/
+
+/*帮助中心*/
+.bottom_nav .up .help{
+	height:192px;
+	/*background-color: sandybrown;*/
+}
+.bottom_nav .up .help .in{
+	width:160px;
+	height:112px;
+	float:left;
+	/*border-right:1px solid blue;*/
+	margin-top:40px;	
+}
+
+.bottom_nav .up .help .in span{
+	/*border:1px solid salmon;*/
+	display: block;
+	color:black;
+	font-size: 16px;
+	margin-bottom:15px;
+
+	
+}
+
+.bottom_nav .up .help .in a{
+	/*border:1px solid blueviolet;*/
+	display: block;/*注意:行内元素变成块元素后浏览器会自动填充一部分行间距*/
+	color:#757575;
+	font-size: 14px;
+	margin-bottom:10px;
+	text-decoration: none;
+
+	
+}
+/*//设置i的样式不起作用,可能是选择器写错了*/
+.bottom_nav .up .one .in a i.iconfont{
+	font-size:20px;
+
+}
+.bottom_nav .up .help .in a:hover{
+	color:#ff6700;
+}
+
+.bottom_nav .up .help .in_right{
+	width:251px;
+	height:112px;
+	float:right;
+	/*border:1px solid blue;*/
+	margin-top:40px;
+	border-left:1px solid #e0e0e0;	
+}
+
+.bottom_nav .up .help .in_right span.num{
+	display: block;
+	height:22px;
+	/*width:251px;*/
+	text-align: center;
+    /*	border:1px solid red;*/
+	color:#ff6700;
+	/*float: left;*/
+	font-size: 22px;
+	line-height:22px;
+	margin-bottom: 5px;
+
+}
+
+
+.bottom_nav .up .help .in_right span.two{
+	display:block;
+	text-align: center;
+	font-size: 14px;
+	/*margin-top: 5px;*/
+}
+
+.bottom_nav .up .help .in_right a{
+	display: block;
+	width:120px;
+	height:30px;
+	border:2px solid #ff6700;
+	font-size: 14px;
+	color:#ff6700;
+	text-align: center;
+	text-decoration: none;
+	margin:10px auto 5px;
+	line-height:30px;
+}
+.bottom_nav .up .help .in_right a:hover{
+	background-color: red;
+	color:#fff;
+}
+/*帮助中心结束*/
+
+
+.bottom_nav .down{
+	background-color: rgb(250, 250, 250);
+	overflow:hidden;	
+}
+
+.bottom_nav .down .img{
+	width:1226px;
+	height:106px;
+	/*border:1px solid firebrick;*/
+	margin:30px auto;
+	
+}
+.bottom_nav .down .img .version{
+	width:1226px;
+	height:57px;
+	/*border:1px solid firebrick;*/
+	margin-top:30px;
+	margin-bottom:30px;	
+}
+
+/*小米图片logo*/
+.bottom_nav .down .img .version img.im{
+	width:57px;
+	height:57px;
+	margin-right:10px;
+	float:left;
+}
+/*小米图片logo结束*/
+
+/*小米图片logo右侧版权信息*/
+.bottom_nav .down .img .version .ver{
+	width:765px;
+	/*border:1px solid blueviolet;*/
+	float:left;
+}
+.bottom_nav .down .img .version .ver a{
+	/*border-right:1px solid #b0b0b0;*/
+	font-size:12px;
+	/*line-height:18px;*/
+	text-decoration: none;
+	font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+	font-style: normal;
+	color: #757575;
+}
+.bottom_nav .down .img .version .ver span{
+	color:#b0b0b0;
+	font-size:12px;
+}
+.bottom_nav .down .img .version .ver p{
+	font-size: 12px;
+	color: #b0b0b0;
+}
+.bottom_nav .down .img .version .ver p a{
+	/*font-size: 12px;*/
+	color: #b0b0b0;
+}
+.bottom_nav .down .img .version .ver a:hover{
+	color: #ff6700;
+}
+
+/*右侧图片*/
+.bottom_nav .down .img .version img.im2{
+	width:85px;
+	height:28px;
+	margin-left:6px;
+}
+/*小米图片logo右侧版权信息结束*/
+
+/*最后一行字体,探索黑科技,小米为发烧而生*/
+.bottom_nav .down .img span.ts{
+	display:block;
+	width:267px;
+	height:19px;
+	/*border:1px solid firebrick;*/
+	/*text-align: center;*/
+	margin:0 auto;
+	
+}
+
+
+

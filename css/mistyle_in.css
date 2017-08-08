@@ -1,0 +1,548 @@
+/*文字，搭配、配件、周边、热评产品、内容、视频*/
+.all_bottom .all_two .three{
+	height:58px;
+	margin-top: 22px;
+}
+.all_bottom .all_two .three .da_color{
+	color: #FF6700;
+	text-decoration: underline;
+	/*border-bottom:2px solid #FF6700;*/
+}
+.all_bottom .all_two .three span{
+	line-height: 58px;
+	float:left;
+	font-size: 22px;
+    font-weight: 200;
+    color: #333;
+}
+.all_bottom .all_two .three a{
+	float:right;
+	margin-left:15px;
+	margin-right:10px;
+	line-height: 58px;
+	font-size:16px;
+	color: #333;
+	text-decoration: none;
+}
+.all_bottom .all_two .three a:hover{
+	color:#ff6700;
+	text-decoration: underline;
+}
+
+/*文字，搭配、配件、周边、热评产品、内容、视频结束*/
+
+/*搭配、配件、周边、为你推荐下方图片区域*/
+.all_bottom .all_two .four{
+	overflow:hidden;
+	/*position: relative;*/
+}
+/*搭配*/
+.all_bottom .all_two .dapei_one .four{
+	display: none;
+}
+/*配件*/
+.all_bottom .all_two .peijian_one .four{
+	display: none;
+}
+/*周边*/
+.all_bottom .all_two .zhoubian_one .four{
+	display: none;
+}
+/*.all_bottom .all_two .four .seven_in{
+	width:2500px;
+	position: relative;
+	left: 0;
+	top: 0;
+    border:3px solid blue;
+
+}*/
+.all_bottom .all_two .four .ten_box_one{
+	width:234px;
+	height:300px;
+	background-color: #e6e6e6;
+	float:left;
+	position: relative;
+}
+.all_bottom .all_two .four .ten_box_one img{
+	width:234px;
+	height:300px;	
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.all_bottom .all_two .four .ten_box{
+	width:234px;
+	height:300px;
+	background-color: #fff;
+	float:left;
+	margin-left:14px;
+	position: relative;
+}
+.all_bottom .all_two .four .ten_box a img{
+	display: block;
+	width:150px;
+	height:150px;
+    text-decoration: none;
+    position:absolute;
+    left:42px;
+    top:34px;
+ }
+.all_bottom .all_two .four .ten_box a.title{
+	display: block;
+	width:234px;
+	height:21px;
+	line-height: 21px;
+	color: #212121;
+	font-size:14px;
+	text-align: center;
+    text-decoration: none;
+    position:absolute;
+    left:0px;
+    bottom:80px;
+ }
+    
+ .all_bottom .all_two .four .ten_box p.price{
+	width:234px;
+	height:21px;
+	line-height: 21px;
+	color: #ff6700;
+	font-size:14px;
+	text-align: center;
+    position:absolute;
+    left:0px;
+    bottom:55px;
+ }
+  .all_bottom .all_two .four .ten_box p.p{
+	width:234px;
+	height:18px;
+	line-height: 18px;
+	color:#b0b0b0;
+	font-size:12px;
+	text-align: center;
+    position:absolute;
+    left:0px;
+    bottom:27px;
+ }
+ /*隐藏区域*/
+ .all_bottom .all_two .four .ten_box a.hidden{
+ 	display: block;
+ 	width:234px;
+ 	height:76px;
+ 	background: #FF6700;
+ 	opacity: 0.9;
+ 	position: absolute;
+ 	bottom:0px;
+ 	left:0px;
+ 	display: none;
+ }
+ .all_bottom .all_two .four .ten_box a.hidden span.ping{
+ 	display: block;
+ 	width:175px;
+ 	height:33px;
+ 	font-size: 12px;
+ 	line-height: 1.3;
+ 	color:#fff;
+ 	text-decoration: none;
+ 	position: absolute;
+ 	bottom:29px;
+ 	left:30px;
+ }
+  .all_bottom .all_two .four .ten_box a.hidden span.ping span.lun{
+ 	display: block;
+ 	width:175px;
+ 	height:18px;
+ 	font-size: 12px;
+ 	line-height: 1.3;
+ 	color:#FFC299;
+ 	/*text-align: center;*/
+ 	text-decoration: none;
+ 	position: absolute;
+ 	top:38px;
+ 	left:0px;
+ }
+ /*.all_bottom .all_two .four .ten_box:hover a.hidden{
+ 	display: block;
+ }*/
+ /*隐藏区域结束*/
+.all_bottom .all_two .four .ten_box_l_one{
+	width:234px;
+	height:300px;
+	background-color: #e6e6e6;
+	float:left;
+	margin-top:14px;
+	position: relative;
+}
+.all_bottom .all_two .four .ten_box_l_one img{
+	width:234px;
+	height:300px;	
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.all_bottom .all_two .four .ten_box_l{
+	width:234px;
+	height:300px;
+	background-color: #fff;
+	float:left;
+	margin-top:14px;
+	margin-left:14px;
+	position: relative;
+}
+.all_bottom .all_two .four .ten_box_last{
+	width:234px;
+	height:300px;
+	background-color: #F5F5F5;
+	float:left;
+	margin-top:14px;
+	margin-left:14px;
+	/*position: relative;*/
+}
+.all_bottom .all_two .four .ten_box_l a img{
+	display: block;
+	width:150px;
+	height:150px;
+    text-decoration: none;
+    position:absolute;
+    left:42px;
+    top:34px;
+ }
+.all_bottom .all_two .four .ten_box_l a.title{
+	display: block;
+	width:234px;
+	height:21px;
+	line-height: 21px;
+	color: #212121;
+	font-size:14px;
+	text-align: center;
+    text-decoration: none;
+    position:absolute;
+    left:0px;
+    bottom:80px;
+ }
+    
+ .all_bottom .all_two .four .ten_box_l p.price{
+	width:234px;
+	height:21px;
+	line-height: 21px;
+	color: #ff6700;
+	font-size:14px;
+	text-align: center;
+    position:absolute;
+    left:0px;
+    bottom:55px;
+ }
+  .all_bottom .all_two .four .ten_box_l p.p{
+	width:234px;
+	height:18px;
+	line-height: 18px;
+	color:#b0b0b0;
+	font-size:12px;
+	text-align: center;
+    position:absolute;
+    left:0px;
+    bottom:27px;
+ }
+ /*隐藏区域*/
+ .all_bottom .all_two .four .ten_box_l a.hidden{
+ 	display: block;
+ 	width:234px;
+ 	height:76px;
+ 	background: #FF6700;
+ 	opacity: 0.9;
+ 	position: absolute;
+ 	bottom:0px;
+ 	left:0px;
+ 	display: none;
+ }
+ .all_bottom .all_two .four .ten_box_l a.hidden span.ping{
+ 	display: block;
+ 	width:175px;
+ 	height:33px;
+ 	font-size: 12px;
+ 	line-height: 1.3;
+ 	color:#fff;
+ 	text-decoration: none;
+ 	position: absolute;
+ 	bottom:29px;
+ 	left:30px;
+ 	display: none;
+ }
+  .all_bottom .all_two .four .ten_box_l a.hidden span.ping span.lun{
+ 	display: block;
+ 	width:175px;
+ 	height:18px;
+ 	font-size: 12px;
+ 	line-height: 1.3;
+ 	color:#FFC299;
+ 	/*text-align: center;*/
+ 	text-decoration: none;
+ 	position: absolute;
+ 	top:38px;
+ 	left:0px;
+ 	display: none;
+ }
+ /*.all_bottom .all_two .four .ten_box_l:hover a.hidden{
+ 	display: block;
+ }*/
+ /*隐藏区域结束*/
+.all_bottom .all_two .four .ten_box_last .in_one{
+	width:234px;
+	height:143px;
+	background-color: #fff;
+	float:left;
+	margin-bottom:14px;
+	position:relative;
+}
+.all_bottom .all_two .four .ten_box_last .in_one a{
+	display: block;
+}
+.all_bottom .all_two .four .ten_box_last .in_one img{
+	width:80px;
+	height:80px;
+	position:absolute;
+	top:33px;
+	left:135px;
+}
+.all_bottom .all_two .four .ten_box_last .in_one a.title{
+	display: block;
+	width:94px;
+	height:21px;
+	text-decoration: none;
+	font-size: 14px;
+	color:#333;
+	text-align: left;
+	position:absolute;
+	top:41px;
+	left:30px;	
+}
+.all_bottom .all_two .four .ten_box_last .in_one span{
+	display: block;
+	width:94px;
+	height:21px;
+	font-size:12px;
+	color:#ff6700;
+	position: absolute;
+	top:70px;
+	left:30px;
+}
+.all_bottom .all_two .four .ten_box_last .in{
+	width:234px;
+	height:143px;
+	background-color: #fff;
+	float:left;
+	position:relative;
+}
+.all_bottom .all_two .four .ten_box_last .in a{
+	display: block;
+	width:94px;
+	height:45px;
+	font-size:18px;
+	color:#333;
+	position: absolute;
+	top:51px;
+	left:30px;
+	text-decoration: none;
+}
+.all_bottom .all_two .four .ten_box_last .in a span{
+	display: block;
+	font-size: 12px;
+	color:#757575;
+}
+.all_bottom .all_two .four .ten_box_last .in a img{
+	display: block;
+	width:80px;
+	height:80px;
+	position:absolute;
+	/*absolute是根据与他最近的有定位关系的父级元素进行定位
+	这里img与浏览更多是父级关系,因此img是根据浏览更多进行定位的
+	默认从浏览更多左侧找距离关系*/
+	top:-20px;
+	left:105px;
+}
+/*搭配、配件、周边、为你推荐下方图片区域结束*/
+
+
+/*热评产品下方图片*/
+.all_bottom .all_two .hot{
+	/*height:614px;*/
+	overflow:hidden;
+/*	border:1px solid blue;*/
+}
+.all_bottom .all_two .hot .ten_box_one{
+	width:296px;
+	height:415px;
+	background-color: #fff;
+	float:left;
+	position: relative;
+}
+.all_bottom .all_two .hot .ten_box_one img{
+	position: absolute;
+	top: 0;
+	left: 0;	
+}
+.all_bottom .all_two .hot .ten_box_one a img{
+	width:296px;
+	height:220px;	
+}
+.all_bottom .all_two .hot .ten_box_one a.descr{
+	display: block;
+	width:240px;
+	height:96px;
+	font-size:14px;
+	line-height:24px;
+	text-decoration: none;
+	color:#333;
+	position: absolute;
+	left:28px;
+	bottom:73px;
+	/*border:1px solid black;*/	
+}
+.all_bottom .all_two .hot .ten_box_one span.pinglun{
+	display: block;
+	font-size: 12px;
+	color:rgb(200,200,200);
+	position: absolute;
+	left:28px;
+	bottom:54px;
+}
+.all_bottom .all_two .hot .ten_box_one p{
+	width:260px;
+	height:21px;
+	line-height: 21px;
+	position: absolute;
+	left:28px;
+	bottom:29px;
+	/*border:1px solid yellow;*/
+}
+.all_bottom .all_two .hot .ten_box_one p a.laiyuan{
+	font-size:14px;
+	color:#333;
+	/*line-height: 21px;*/
+	text-decoration: none;
+	float:left;
+}
+.all_bottom .all_two .hot .ten_box_one span.shu{
+	display: block;
+	width:1px;
+	height:14px;
+	background-color:rgb(143,84,185);
+	margin:3.5px 10px 3.5px;
+	float:left;
+}
+.all_bottom .all_two .hot .ten_box_one span.price{
+	font-size: 14px;
+	color:#ff6700;
+	float:left;
+	
+}
+
+.all_bottom .all_two .hot .ten_box{
+	width:296px;
+	height:415px;
+	background-color: #fff;
+	float:left;
+	margin-left: 14px;
+	position: relative;
+}
+.all_bottom .all_two .hot .ten_box a img{
+	width:296px;
+	height:220px;	
+}
+.all_bottom .all_two .hot .ten_box a.descr{
+	display: block;
+	width:240px;
+	height:96px;
+	font-size:14px;
+	line-height:24px;
+	text-decoration: none;
+	color:#333;
+	position: absolute;
+	left:28px;
+	bottom:73px;
+	/*border:1px solid black;*/	
+}
+.all_bottom .all_two .hot .ten_box span.pinglun{
+	display: block;
+	font-size: 12px;
+	color:rgb(200,200,200);
+	position: absolute;
+	left:28px;
+	bottom:54px;
+}
+.all_bottom .all_two .hot .ten_box p{
+	width:260px;
+	height:21px;
+	line-height: 21px;
+	position: absolute;
+	left:28px;
+	bottom:29px;
+	/*border:1px solid yellow;*/
+}
+.all_bottom .all_two .hot .ten_box p a.laiyuan{
+	font-size:14px;
+	color:#333;
+	/*line-height: 21px;*/
+	text-decoration: none;
+	float:left;
+}
+.all_bottom .all_two .hot .ten_box span.shu{
+	display: block;
+	width:1px;
+	height:14px;
+	background-color:rgb(143,84,185);
+	margin:3.5px 10px 3.5px;
+	float:left;
+}
+.all_bottom .all_two .hot .ten_box span.price{
+	font-size: 14px;
+	color:#ff6700;
+	float:left;
+	
+}
+
+/*热评产品下方图片结束*/
+
+
+
+/*视频文字右侧区域*/
+
+.all_bottom .all_two .three a.chakanquanbu{
+	float:right;
+	line-height: 58px;
+	font-size:16px;
+	color: #333;
+	text-decoration: none;
+}
+.all_bottom .all_two .three a.chakanquanbu i{
+	float:right;
+	line-height: 57px;
+	font-size:16px;
+	color: #333;
+	text-decoration: none;
+	margin-left:10px;
+}
+.all_bottom .all_two .three a:hover{
+	color: #ff6700;
+}
+.all_bottom .all_two .three a i:hover{
+	color: #ff6700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

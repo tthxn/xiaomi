@@ -1,0 +1,238 @@
+
+/*视频下方图片*/
+.all_bottom .all_two .video{
+	/*height:614px;*/
+	overflow:hidden;
+/*	border:1px solid blue;*/
+}
+.all_bottom .all_two .video .ten_box_one{
+	width:296px;
+	height:285px;
+	background-color: #fff;
+	float:left;
+	position:relative;
+}
+.all_bottom .all_two .video .ten_box_one a.vi{
+	display: block;
+	width:296px;
+	height:180px;
+	position:absolute;
+	left: 0;
+	top: 0;
+	text-decoration: none;
+}
+.all_bottom .all_two .video .ten_box_one a.vi:hover p{
+	background: #FF6700;
+	border: 2px solid #FF6700;
+}
+.all_bottom .all_two .video .ten_box_one a.vi p{
+	width:32px;
+	height:20px;
+	border: 2px solid #FFFFFF;
+	border-radius: 15px;
+	text-align: center;
+	line-height: 20px;
+	background:#000000;
+	position:absolute;
+	left: 20px;
+	bottom: 9px;
+	z-index: 1;	
+}
+.all_bottom .all_two .video .ten_box_one a.vi p i{
+	font-size: 14px;
+	color: #FFFFFF;	
+}
+.all_bottom .all_two .video .ten_box_one a.vi img{
+	width:296px;
+	height:180px;
+	
+}
+.all_bottom .all_two .video .ten_box_one a.title{
+	width:296px;
+	height:21px;
+	color:#333;
+	font-size: 14px;
+	line-height:21px;
+	font-weight: 400;
+	text-align: center;
+	text-decoration: none;
+	position: absolute;
+	bottom: 56px;
+	left: 0;
+}
+.all_bottom .all_two .video .ten_box_one>p{
+	width:296px;
+	height:18px;
+	color:#b0b0b0;
+	font-size: 12px;
+	line-height:18px;
+	font-weight: 400;
+	text-align: center;
+	position: absolute;
+	bottom: 32px;
+	left: 0;
+}
+.all_bottom .all_two .video .ten_box{
+	width:296px;
+	height:285px;
+	background-color: #fff;
+	float:left;
+	margin-left:14px;
+	margin-bottom: 60px;
+	position: relative;
+}
+.all_bottom .all_two .video .ten_box>a.vi{
+	display: block;
+	width:296px;
+	height:180px;
+	position:absolute;
+	left: 0;
+	top: 0;
+	text-decoration: none;
+}
+
+.all_bottom .all_two .video .ten_box>a.vi p{
+	width:32px;
+	height:20px;
+	border: 2px solid #FFFFFF;
+	border-radius: 15px;
+	text-align: center;
+	line-height: 20px;
+	background:#000000;
+	position:absolute;
+	left: 20px;
+	bottom: 9px;	
+	z-index: 1;
+}
+.all_bottom .all_two .video .ten_box a.vi:hover p{
+	background: #FF6700;
+	border: 2px solid #FF6700;
+}
+.all_bottom .all_two .video .ten_box a.vi p i{
+	font-size: 14px;
+	color: #FFFFFF;	
+}
+.all_bottom .all_two .video .ten_box>a img{
+	width:296px;
+	height:180px;
+	
+}
+.all_bottom .all_two .video .ten_box a.title{
+	width:296px;
+	height:21px;
+	color:#333;
+	font-size: 14px;
+	line-height:21px;
+	font-weight: 400;
+	text-align: center;
+	text-decoration: none;
+	position: absolute;
+	bottom: 56px;
+	left: 0;
+}
+.all_bottom .all_two .video .ten_box>p{
+	width:296px;
+	height:18px;
+	color:#b0b0b0;
+	font-size: 12px;
+	line-height:18px;
+	font-weight: 400;
+	text-align: center;
+	position: absolute;
+	bottom: 32px;
+	left: 0;
+}
+/*视频下方图片结束*/
+
+
+
+/*隐藏区域*/
+.hide_v{
+	width: 880px;
+	height:0px;
+	background: rgba(0,0,0,0.3);
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 10;
+	/*opacity: 0.7;opacity会使里面的子元素也透明，因此用background: rgba(0,0,0,0.7);设置透明度*/
+}
+.hide_v .in{
+	width: 880px;
+	height:596px;
+	background: #F5F5F5;
+	margin: 10px auto;
+	position: relative;
+	display: none;
+}
+.hide_v .in p{
+	width: 880px;
+	height:60px;
+	line-height: 60px;
+	background: #F5F5F5;
+	color: #424242;
+	text-indent: 20px;
+	font-size: 18px;
+	/*font-weight: 700;*/
+}
+.hide_v .in video{
+	width: 880px;
+	height: 536px;
+	background: black;
+}
+.hide_v .in a{
+	display: block;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 50%;
+	/*border: 1px solid red;*/
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	z-index: 1;
+	text-decoration: none;
+	color: #757575;
+	text-align: center;
+	font-weight: 700;
+}
+.hide_v .in a i{
+	font-size: 14px;
+	/*font-weight: 900;*/
+}
+.hide_v .in a:hover{
+	background: red;
+	color: #F5F5F5;
+}
+/*隐藏区域结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

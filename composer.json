@@ -1,0 +1,11 @@
+{
+    "name": "sunxuejing/xiaomi",
+    "type": "project",
+    "authors": [
+        {
+            "name": "zxc",
+            "email": "11111@qq.com"
+        }
+    ],
+    "require": {}
+}
